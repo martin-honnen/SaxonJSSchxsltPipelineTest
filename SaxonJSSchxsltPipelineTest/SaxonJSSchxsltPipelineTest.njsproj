@@ -48,6 +48,9 @@
     <Content Include="run-identity-and-output.xsl">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="run-identity-inline.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="run-identity-with-fn-transform.xsl">
       <SubType>Code</SubType>
     </Content>
