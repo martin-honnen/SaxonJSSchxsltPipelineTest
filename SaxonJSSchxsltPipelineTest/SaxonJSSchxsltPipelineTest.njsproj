@@ -29,8 +29,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="identity.sef.json" />
+    <Content Include="identity.xsl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="run-and-apply-identity.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="run-and-apply-identity.sef.json" />
+    <Content Include="run-and-apply-identity.xsl">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="run-identity-and-output.xsl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="run-pipeline-for-svrl-and-apply-to-schema.sef.json" />
     <Content Include="run-pipeline-for-svrl-and-apply-to-schema.xsl">
       <SubType>Code</SubType>
