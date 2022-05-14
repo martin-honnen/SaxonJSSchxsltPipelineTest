@@ -48,6 +48,9 @@
     <Content Include="run-identity-and-output.xsl">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="run-identity-with-fn-transform.xsl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="run-pipeline-for-svrl-and-apply-to-schema.sef.json" />
     <Content Include="run-pipeline-for-svrl-and-apply-to-schema.xsl">
       <SubType>Code</SubType>
