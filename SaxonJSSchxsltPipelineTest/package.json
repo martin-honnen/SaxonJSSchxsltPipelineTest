@@ -1,0 +1,12 @@
+{
+  "name": "saxon-jsschxslt-pipeline-test",
+  "version": "0.0.1",
+  "description": "SaxonJSSchxsltPipelineTest",
+  "main": "app.js",
+  "author": {
+    "name": "Martin Honnen"
+  },
+  "dependencies": {
+    "saxon-js": "^2.4.0"
+  }
+}
