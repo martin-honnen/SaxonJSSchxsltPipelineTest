@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d494c456-bb2b-462a-8e49-7098d7cb26a4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>run-identity-inline.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="copy-and-apply-identity.xsl">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="identity.sef.json" />
     <Content Include="identity.xsl">
       <SubType>Code</SubType>
@@ -40,6 +43,15 @@
     </Content>
     <Content Include="run-and-apply-identity.sef.json" />
     <Content Include="run-and-apply-identity.xsl">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="run-identity-and-output.xsl">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="run-identity-inline.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="run-identity-with-fn-transform.xsl">
       <SubType>Code</SubType>
     </Content>
     <Content Include="run-pipeline-for-svrl-and-apply-to-schema.sef.json" />
