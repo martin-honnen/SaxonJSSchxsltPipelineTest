@@ -81,3 +81,5 @@ const result = SaxonJS.XPath.evaluate(`
 	}
 	}
 );
+
+console.log(SaxonJS.serialize(result, { method: 'xml', indent: true }));
