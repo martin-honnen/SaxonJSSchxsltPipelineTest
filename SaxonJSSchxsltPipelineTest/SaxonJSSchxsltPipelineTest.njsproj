@@ -45,6 +45,9 @@
     <Content Include="run-and-apply-identity.xsl">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="run-fixed-identity-inline.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="run-identity-and-output.xsl">
       <SubType>Code</SubType>
     </Content>
