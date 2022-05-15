@@ -19,7 +19,7 @@
 	<xsl:variable name="transformed-xslt">
 		<xsl:variable name="xslt"
             select="if (empty($xslt-uri))
-                    then parse-xml(xslt-text)
+                    then parse-xml($xslt-text)
                     else if (doc-available($xslt-uri))
                     then doc($xslt-uri)
                     else doc(resolve-uri($xslt-uri, base-uri(/)))"/>

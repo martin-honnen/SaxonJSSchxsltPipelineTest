@@ -2,6 +2,8 @@ const SaxonJS = require('saxon-js');
 
 const xml = '<root>This is a test</root>';
 
+console.log(xml);
+
 const identityXslt = `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="3.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -36,7 +38,7 @@ const xslt = `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	<xsl:variable name="transformed-xslt">
 		<xsl:variable name="xslt"
             select="if (empty($xslt-uri))
-                    then parse-xml(xslt-text)
+                    then parse-xml($xslt-text)
                     else if (doc-available($xslt-uri))
                     then doc($xslt-uri)
                     else doc(resolve-uri($xslt-uri, base-uri(/)))"/>
